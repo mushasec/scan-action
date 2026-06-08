@@ -1,0 +1,9 @@
+name: 'Musha Security Scan'
+description: 'Scan your repository with Musha Security via OIDC.'
+inputs:
+  project-id:
+    description: 'Your Musha project ID (from the Integration Guide).'
+    required: true
+runs:
+  using: 'node24'
+  main: 'index.js'
